@@ -1,0 +1,71 @@
+/* Author:Anuja */
+body{
+    font-family: sans-serif;
+}
+.body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    /* margin-left: auto;
+    margin-right:auto;
+    position: relative;  */
+}
+h1{
+    font-size: large;
+}
+a{
+    font-size: small;
+}
+header{
+    border-top: 3px solid blue;
+    padding: 10px; 
+    display: flex;
+    align-items: flex-end;
+    background-color: whitesmoke;
+    color:blue;
+}
+.top{
+    background-color: yellow;
+    width:max-content;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+}
+h2,h3{
+    color:blue;
+}
+.let::first-letter {
+
+    font-weight: bold;
+    font-size: x-large;
+}
+li:first-child{
+    font-weight: bold;
+}
+.img{
+    width: 15%;
+}
+span{
+    color: blue;
+}
+aside{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    background-color: rgb(242, 244, 245);
+    width: 300px;
+}
+.aside{
+    color: blue;
+    display: inline;
+}
+footer{
+    text-align:center;
+}
+.but{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

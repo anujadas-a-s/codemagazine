@@ -1,0 +1,82 @@
+.body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+body {
+    position: relative;
+}
+h3 {
+    color: blue;
+}
+h1 {
+    font-size: 18px;
+    padding: 15px;
+}
+header {
+    background-color: rgb(236, 242, 244);
+    color: blue;
+    border-top: 4px solid blue;
+}
+.top {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    max-width: 30px;
+    left: 650px;
+}
+.post {
+    width: 500px;
+}
+nav {
+    margin: 15px;
+}
+
+.para {
+    color: blue;
+}
+span {
+    color: blue;
+}
+.img {
+    width: 40px;
+}
+hr {
+    background-color: blue;
+}
+aside {
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+    background-color: lightblue;
+    width: 300px;
+}
+footer {
+    text-align: center;
+}
+.aside {
+    color: blue;
+    display: inline;
+    position: relative;
+}
+.but {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* .laura{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  } */
+li:first-child {
+    font-weight: bold;
+}
+.html::first-letter {
+    font-weight: bold;
+}
+.let::first-letter {
+    font-weight: bold;
+    font-size: x-large;
+}
